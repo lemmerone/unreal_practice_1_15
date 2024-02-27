@@ -7,7 +7,7 @@ void printNumber(int n)
 
 void findOddNumbers(int limit, bool isOdd)
 {
-    for (int i = int(isOdd); i <= limit; i += 2)
+    for (int i = isOdd; i <= limit; i += 2)
     {
         printNumber(i);
     }
